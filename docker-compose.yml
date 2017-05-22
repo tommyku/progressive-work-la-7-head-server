@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  hoodie:
+    build: .
+    depends_on:
+      - couchdb
+    env_file: env.development
+    links:
+      - couchdb
+    ports:
+      - "8082:8082"
+  couchdb:
+    image: couchdb:1.6.1
+    env_file: env.development
+    volumes:
+      - db_data:/usr/local/var/lib/couchdb
+volumes:
+  db_data:

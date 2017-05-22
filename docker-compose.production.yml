@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  hoodie:
+    restart: always
+    env_file: env.production
+  couchdb:
+    restart: always
+    env_file: env.production
