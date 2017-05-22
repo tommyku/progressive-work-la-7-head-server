@@ -1,0 +1,11 @@
+{
+  "name": "progressive-work-la-7-head-server",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "hoodie",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "hoodie": "^28.1.0"
+  }
+}
