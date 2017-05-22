@@ -5,15 +5,17 @@ services:
     build: .
     depends_on:
       - couchdb
-    env_file: env.development
+    env_file: env.hoodie.development
     links:
       - couchdb
     ports:
       - "8082:8082"
+    network_mode: bridge
   couchdb:
     image: couchdb:1.6.1
-    env_file: env.development
+    env_file: env.couchdb.development
     volumes:
       - db_data:/usr/local/var/lib/couchdb
+    network_mode: bridge
 volumes:
   db_data:
