@@ -11,9 +11,11 @@ RUN apk add --no-cache git && \
     apk del git && \
     rm -rf /tmp/* /root/.npm
 
-EXPOSE 8082
+COPY public $PROJECT_DIR/public
 
 COPY entrypoint $PROJECT_DIR
+
+EXPOSE 8082
 
 ENTRYPOINT [ "./entrypoint" ]
 
