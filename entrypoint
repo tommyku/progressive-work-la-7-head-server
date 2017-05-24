@@ -6,7 +6,7 @@ CMD=$1
 
 case "$CMD" in
   'start' )
-    npm start -- --address 0.0.0.0 --port 8082 --dbUrl "http://$COUCHDB_USER:$COUCHDB_PASSWORD@$COUCHDB_HOST:5984/" --loglevel info
+    npm start -- --address 0.0.0.0 --port 8082 --dbUrl "http://$COUCHDB_USER:$COUCHDB_PASSWORD@$COUCHDB_HOST:5984/"
     ;;
 
    * )
