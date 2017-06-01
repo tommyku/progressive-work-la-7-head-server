@@ -3,7 +3,7 @@ version: '2'
 services:
   hoodie:
     restart: always
-    env_file: env.production
+    env_file: env.hoodie.production
   couchdb:
     restart: always
-    env_file: env.production
+    env_file: env.couchdb.production
