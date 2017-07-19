@@ -578,6 +578,12 @@ boom@4.x.x, boom@^4.0.0, boom@^4.2.0:
   dependencies:
     hoek "4.x.x"
 
+boom@5.x.x:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
+  dependencies:
+    hoek "4.x.x"
+
 brace-expansion@^1.0.0, brace-expansion@^1.1.7:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.7.tgz#3effc3c50e000531fb720eaff80f0ae8ef23cf59"
@@ -1822,6 +1828,29 @@ hapi@^16.0.0:
     subtext "^4.3.x"
     topo "2.x.x"
 
+hapi@^16.4.2:
+  version "16.4.3"
+  resolved "https://registry.yarnpkg.com/hapi/-/hapi-16.4.3.tgz#be4daaf2dcdbee97957ce503061b09765078aa05"
+  dependencies:
+    accept "2.x.x"
+    ammo "2.x.x"
+    boom "5.x.x"
+    call "4.x.x"
+    catbox "7.x.x"
+    catbox-memory "2.x.x"
+    cryptiles "3.x.x"
+    heavy "4.x.x"
+    hoek "4.x.x"
+    iron "4.x.x"
+    items "2.x.x"
+    joi "10.x.x"
+    mimos "3.x.x"
+    podium "1.x.x"
+    shot "3.x.x"
+    statehood "5.x.x"
+    subtext "4.x.x"
+    topo "2.x.x"
+
 har-schema@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/har-schema/-/har-schema-1.0.5.tgz#d263135f43307c02c602afc8fe95970c0151369e"
@@ -1945,9 +1974,9 @@ hoodie-zuul-config@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hoodie-zuul-config/-/hoodie-zuul-config-2.0.0.tgz#a680b02c9e343b76df327b1e087945b37795c6ab"
 
-hoodie@^28.1.0:
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/hoodie/-/hoodie-28.1.0.tgz#04e828950cde0b75be4c06d6dae654c27b795faf"
+hoodie@^28.2.1:
+  version "28.2.1"
+  resolved "https://registry.yarnpkg.com/hoodie/-/hoodie-28.2.1.tgz#e9cb759006b4bea8f90a0f94fe04ae054cedf6a0"
   dependencies:
     "@hoodie/admin" "^1.0.1"
     "@hoodie/client" "^10.0.0"
@@ -1957,7 +1986,7 @@ hoodie@^28.1.0:
     good "^7.0.2"
     good-squeeze "^5.0.0"
     h2o2 "^5.1.0"
-    hapi "^16.0.0"
+    hapi "^16.4.2"
     hapi-cors-headers "^1.0.0"
     inert "^4.0.0"
     lodash "^4.11.2"
@@ -1972,7 +2001,7 @@ hoodie@^28.1.0:
     pouchdb-mapreduce "^6.0.6"
     rc "^1.1.6"
     semver "^5.1.0"
-    yargs "^6.0.0"
+    yargs "^7.0.1"
 
 hosted-git-info@^2.1.4:
   version "2.4.2"
@@ -2985,6 +3014,14 @@ pinkie-promise@^2.0.0:
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+
+podium@1.x.x:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/podium/-/podium-1.3.0.tgz#3c490f54d16f10f5260cbe98641f1cb733a8851c"
+  dependencies:
+    hoek "4.x.x"
+    items "2.x.x"
+    joi "10.x.x"
 
 podium@^1.2.x:
   version "1.2.5"
@@ -4292,6 +4329,16 @@ sublevel-pouchdb@6.2.0:
     ltgt "2.1.3"
     readable-stream "1.0.33"
 
+subtext@4.x.x:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/subtext/-/subtext-4.4.1.tgz#2fcec945de429283c3d18b151ff0fa1f1b87aec9"
+  dependencies:
+    boom "5.x.x"
+    content "3.x.x"
+    hoek "4.x.x"
+    pez "2.x.x"
+    wreck "12.x.x"
+
 subtext@^4.3.x:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/subtext/-/subtext-4.4.0.tgz#0cf137965f47fe0e126a56a2488bb1c88dc93514"
@@ -4596,6 +4643,13 @@ wreck@10.x.x:
     boom "4.x.x"
     hoek "4.x.x"
 
+wreck@12.x.x:
+  version "12.2.2"
+  resolved "https://registry.yarnpkg.com/wreck/-/wreck-12.2.2.tgz#e21823d34c36d672004eefa347ae8c4f6050e3db"
+  dependencies:
+    boom "5.x.x"
+    hoek "4.x.x"
+
 wreck@9.X.X:
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/wreck/-/wreck-9.0.0.tgz#1de63d49bb07b94fe718864b8be63176e63331ec"
@@ -4638,15 +4692,15 @@ yallist@^2.0.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yargs-parser@^4.2.0:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-4.2.1.tgz#29cceac0dc4f03c6c87b4a9f217dd18c9f74871c"
+yargs-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-5.0.0.tgz#275ecf0d7ffe05c77e64e7c86e4cd94bf0e1228a"
   dependencies:
     camelcase "^3.0.0"
 
-yargs@^6.0.0:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/yargs/-/yargs-6.6.0.tgz#782ec21ef403345f830a808ca3d513af56065208"
+yargs@^7.0.1:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-7.1.0.tgz#6ba318eb16961727f5d284f8ea003e8d6154d0c8"
   dependencies:
     camelcase "^3.0.0"
     cliui "^3.2.0"
@@ -4660,7 +4714,7 @@ yargs@^6.0.0:
     string-width "^1.0.2"
     which-module "^1.0.0"
     y18n "^3.2.1"
-    yargs-parser "^4.2.0"
+    yargs-parser "^5.0.0"
 
 yargs@~3.27.0:
   version "3.27.0"

@@ -6,6 +6,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "hoodie": "^28.1.0"
+    "hoodie": "^28.2.1"
   }
 }
